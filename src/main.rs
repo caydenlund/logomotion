@@ -1,4 +1,4 @@
-use logomotive::{func, log};
+use logomotion::{func, log};
 
 fn foo() {
     let ctx = func!("foo()");
