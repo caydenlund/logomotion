@@ -1,6 +1,11 @@
 [package]
-name = "logomotive"
+name = "logomotion"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
+authors = ["Cayden Lund <caydenlund@gmail.com>"]
+description = "macro-based logging framework for rust"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/caydenlund/logomotion"
+homepage = "https://github.com/caydenlund/logomotion"
 
 [dependencies]
