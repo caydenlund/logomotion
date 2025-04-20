@@ -15,7 +15,7 @@ macro_rules! indent {
     () => {{
         print!("{}", $crate::INDENT_COLOR);
         $crate::LOG_DEPTH.with(|d| {
-            (0..*d.borrow()).for_each(|_| print!("⎸    "));
+            (0..*d.borrow()).for_each(|_| print!("⎸   "));
         });
         print!("{}", $crate::RESET_COLOR);
     }};
